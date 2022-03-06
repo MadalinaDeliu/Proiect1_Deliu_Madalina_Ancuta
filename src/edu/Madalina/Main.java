@@ -3,9 +3,11 @@ package edu.Madalina;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("hello");
-        System.out.println("Salut");
+		
+	Firma_televiziune firma=new Firma_televiziune();
+	firma.gestiune();
+	//Program_post_televiziune program=new Program_post_televiziune();
+	//program.luni();
 	}
 
 }

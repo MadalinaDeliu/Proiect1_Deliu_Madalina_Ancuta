@@ -3,7 +3,7 @@ package edu.Madalina;
 
 import genuri.Madalina.*;
 
-public class Emisiune<T>
+public class Emisiune//<T>
 {
 	private String nume;
 	private String gen_emisiune;

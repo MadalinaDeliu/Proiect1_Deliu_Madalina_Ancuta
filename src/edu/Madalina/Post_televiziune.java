@@ -15,6 +15,7 @@ public class Post_televiziune implements Aplicatie
 	}
 	public void detalii_post()
 	{
+		program = new Program_post_televiziune();
 		program.luni();
 	}
 	public void tipul_postului() {

@@ -1,9 +1,11 @@
 # Proiect1_Deliu_Madalina_Ancuta
 14. Studiul programelor de televiziune oferite de o firma de cablu
+
 Se considera o firma de televiziune prin cablu care oferă un număr N de posturi.
 Fiecare canal de televiziune are o anumita frecventa pe care este recepționat,
 anumite zile ale săptămânii alocate unei eventuale revizii, un program pentru fiecare
 zi asăptămânii, fiecare emisiune din cadrul programului fiind caracterizata prin :
+
 a. genul emisiunii (de exemplu divertisment, cultural etc.) ;
 b. publicul ținta (tinerii sub 18 ani de exemplu) ;
 c. ora difuzării ;

@@ -1,16 +1,22 @@
 package edu.Madalina;
 
+import java.util.Vector;
+ 
 public class Firma_televiziune
 {
   private int numar_posturi;
-  private Post_televiziune[] posturi=new Post_televiziune[1];
-  public void gestiune()
+  private Vector<Post_televiziune> posturi;
+  
+  public Firma_televiziune()
   {
-	  for(int i=0; i<1; i++)
-	 {
-	  posturi[i] = new Post_televiziune();
-	  posturi[i].detalii_post();
-	
-	 }
+	  numar_posturi=0;
+	  posturi = new Vector<Post_televiziune>(numar_posturi);
+  }
+
+public void gestiune()
+  {
+	  Post_televiziune o = new Post_televiziune();
+	  posturi.add(o);
+	  o.detalii_post();  
   }
 }

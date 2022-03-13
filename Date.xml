@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<firma_televiziune>
+    <posturi_televiziune>
+        <post_televiziune id="1"> 
+             <nume>Kanal D</nume>
+             <frecventa>1</frecventa> 
+             <zile_revizie>Vineri</zile_revizie>
+             <program_post_televiziune>
+                    <numar_emisiuni>1</numar_emisiuni>
+                    <zi_saptamana>1</zi_saptamana>
+                    <emisiuni>
+                         <emisiune>
+                              <nume_emisiune>Stiri</nume_emisiune>
+                              <gen_emisiune>cultural</gen_emisiune>
+                              <public_tinta>60</public_tinta>
+                              <ora_difuzare>20:30</ora_difuzare> 
+                              <durata>3</durata>
+                              <tip_emisiune>false</tip_emisiune>
+                         </emisiune>
+                    </emisiuni>
+             </program_post_televiziune>
+        </post_televiziune>
+    </posturi_televiziune>
+</firma_televiziune>

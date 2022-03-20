@@ -1,8 +1,14 @@
 package edu.Madalina;
 
-public class Post_televiziune
+import java.io.Serializable;
+
+public class Post_televiziune implements Serializable
 {
-	private int id;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	private String nume;
 	private float frecventa;
 	private String zile_revizie;
@@ -10,10 +16,18 @@ public class Post_televiziune
 	
 	public Post_televiziune()
 	{
-		setNume("");
-		setFrecventa(0);
-		setZile_revizie("");
+		nume="";
+		frecventa=0;
+		zile_revizie="";
 		program=null;
+	}
+	
+	public Post_televiziune(String nume, float frecventa, String zile_revizie, Program_post_televiziune program)
+	{
+		this.nume = nume;
+		this.frecventa = frecventa;
+		this.zile_revizie = zile_revizie;
+		this.program = program;
 	}
 	public void detalii_post()
 	{
@@ -21,28 +35,6 @@ public class Post_televiziune
 //		program.program_zile();
 	}
 	
-	
-	
-	public void tipul_postului() {
-		
-	}
-	public void durata_medie_emisiuni() {
-		
-	}
-	public void numar_emisiuni_live_inregistrate() {
-		
-	}
-	public void public_tinta() {
-		
-	}
-	public void ora_preponderenta_gen_emisiune() {
-		
-	}
-	
-	public int setId(int parseInt) {
-		return id;
-		
-	}
 	public String getNume() {
 		return nume;
 	}
@@ -68,8 +60,22 @@ public class Post_televiziune
 	public void setProgram(Program_post_televiziune program) {
 		this.program = program;
 	}
-	public String toString() {
-        return " \n POST\n--------------\nId="+this.id +" \nNume: " + this.nume +" \nFrecventa: "+ this.frecventa 
-        		+ " \nZile revizie: "+ this.zile_revizie;
-    }
+	
+	
+	public void tipul_postului() {
+		
+	}
+	public void durata_medie_emisiuni() {
+		
+	}
+	public void numar_emisiuni_live_inregistrate() {
+		
+	}
+	public void public_tinta() {
+		
+	}
+	public void ora_preponderenta_gen_emisiune() {
+		
+	}
+
 }

@@ -1,17 +1,44 @@
 package edu.Madalina;
 
+import java.io.Serializable;
 
 //import genuri.Madalina.*;
 
-public class Emisiune//<T>
+public class Emisiune implements Serializable//<T>
 {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String nume_emisiune;
 	private String gen_emisiune;
 	private int public_tinta;
 	private String ora_difuzare;
 	private int durata;
-	private boolean tip_emisiune;
+	private String tip_emisiune;
 	
+	public Emisiune()
+	{
+		nume_emisiune="";
+		//Emisiune<Cultural> gen_emisiune = new Emisiune<Cultural>();
+		gen_emisiune="";
+		public_tinta = 0;
+		ora_difuzare = "";
+		durata = 0;
+		setTip_emisiune("Live");
+	}
+	
+	public Emisiune(String nume_emisiune, String gen_emisiune, int public_tinta, String ora_difuzare, int durata,
+			String tip_emisiune) {
+		
+		this.nume_emisiune = nume_emisiune;
+		this.gen_emisiune = gen_emisiune;
+		this.public_tinta = public_tinta;
+		this.ora_difuzare = ora_difuzare;
+		this.durata = durata;
+		this.tip_emisiune = tip_emisiune;
+	}
 	
 	public String getNume_emisiune() {
 		return nume_emisiune;
@@ -43,37 +70,11 @@ public class Emisiune//<T>
 	public void setDurata(int durata) {
 		this.durata = durata;
 	}
-	public boolean isTip_emisiune() {
+	public String getTip_emisiune() {
 		return tip_emisiune;
 	}
-	public void setTip_emisiune(boolean tip_emisiune) {
+	public void setTip_emisiune(String tip_emisiune) {
 		this.tip_emisiune = tip_emisiune;
-	} 
-	public Emisiune()
-	{
-		nume_emisiune="";
-		//Emisiune<Cultural> gen_emisiune = new Emisiune<Cultural>();
-		gen_emisiune="";
-		public_tinta = 0;
-		ora_difuzare = "";
-		durata = 0;
-		tip_emisiune = false;
 	}
-	public void tip_emisiune() 
-	{
-		if(tip_emisiune == false) 
-		{
-			System.out.println("Emisiunea este Inregistrata");
-		}
-		else
-		{
-			System.out.println("Emisiunea este Live");
-		}
-	}
-	public String toString() {
-        return " EMISIUNE\n------------\nNume Emisiune: "+this.nume_emisiune +" \nGen Emisiune: " + this.gen_emisiune +
-        		"\nPublic tintra: "+ this.public_tinta + "\nOra difuzare: "+ this.ora_difuzare
-        		+ "\nDurata: "+ this.durata + "\nTip Emisiune: "+ this.durata;
-    }
 	
 }

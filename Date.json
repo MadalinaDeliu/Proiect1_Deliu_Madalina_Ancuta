@@ -1,0 +1,26 @@
+{
+		"numar_posturi":1,
+		"posturi":
+		[
+			{ 
+			"nume":"Kanal D",
+            "frecventa":1,
+            "zile_revizie":"Vineri",
+            "program":
+            	{
+					"numar_emisiuni":1,
+             		"zi_saptamana":1,
+             		"emisiuni":[
+                         {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"20:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          }
+                        ]
+				}
+			}
+		]
+}

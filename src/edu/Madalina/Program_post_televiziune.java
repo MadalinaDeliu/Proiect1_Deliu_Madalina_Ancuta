@@ -1,17 +1,32 @@
 package edu.Madalina;
-//import java.util.Scanner;
+import java.io.Serializable;
 import java.util.*;
-public class Program_post_televiziune
+public class Program_post_televiziune implements Serializable
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private int numar_emisiuni;
 	private int zi_saptamana;
+	private Vector<Emisiune> emisiuni = new Vector<Emisiune>();
 
 	public Program_post_televiziune()
 	{
 		numar_emisiuni=0;
 		zi_saptamana = 1;
+		setEmisiuni(new Vector<Emisiune>(numar_emisiuni));
 	}
 	
+	public Program_post_televiziune(int numar_emisiuni, int zi_saptamana, Vector<Emisiune> emisiuni) {
+		
+		this.numar_emisiuni = numar_emisiuni;
+		this.zi_saptamana = zi_saptamana;
+		this.emisiuni = emisiuni;
+	}
+	
+
 	public void program_zile()
 	{
 		//Scanner scanner = null;
@@ -61,10 +76,13 @@ public class Program_post_televiziune
 	public void setNumar_emisiuni(int numar_emisiuni) {
 		this.numar_emisiuni = numar_emisiuni;
 	}
-	public String toString() {
-        return "\n PROGRAM\n-----------------\nNumar Emisiuni: "+this.numar_emisiuni+" \nZi Saptamana: " + this.zi_saptamana + "\n";
-    }
-	
 
-	
+	public Vector<Emisiune> getEmisiuni() {
+		return emisiuni;
+	}
+
+	public void setEmisiuni(Vector<Emisiune> emisiuni) {
+		this.emisiuni = emisiuni;
+	}	
+
 }

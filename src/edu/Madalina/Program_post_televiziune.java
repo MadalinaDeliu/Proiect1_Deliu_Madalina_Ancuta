@@ -3,6 +3,8 @@ import java.io.Serializable;
 import java.util.*;
 public class Program_post_televiziune implements Serializable
 {
+	
+
 	/**
 	 * 
 	 */
@@ -84,5 +86,10 @@ public class Program_post_televiziune implements Serializable
 	public void setEmisiuni(Vector<Emisiune> emisiuni) {
 		this.emisiuni = emisiuni;
 	}	
+	@Override
+	public String toString() {
+		return "Program_post_televiziune [numar_emisiuni=" + numar_emisiuni + ", zi_saptamana=" + zi_saptamana
+				+ ", emisiuni=" + emisiuni + "]";
+	}
 
 }

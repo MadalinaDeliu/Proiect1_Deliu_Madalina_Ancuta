@@ -76,5 +76,11 @@ public class Emisiune implements Serializable//<T>
 	public void setTip_emisiune(String tip_emisiune) {
 		this.tip_emisiune = tip_emisiune;
 	}
+	@Override
+	public String toString() {
+		return "Emisiune [nume_emisiune=" + nume_emisiune + ", gen_emisiune=" + gen_emisiune + ", public_tinta="
+				+ public_tinta + ", ora_difuzare=" + ora_difuzare + ", durata=" + durata + ", tip_emisiune="
+				+ tip_emisiune + "]";
+	}
 	
 }

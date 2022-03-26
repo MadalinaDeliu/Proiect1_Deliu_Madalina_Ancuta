@@ -4,6 +4,11 @@ import java.io.Serializable;
 
 public class Post_televiziune implements Serializable
 {
+	@Override
+	public String toString() {
+		return "Post_televiziune [nume=" + nume + ", frecventa=" + frecventa + ", zile_revizie=" + zile_revizie
+				+ ", program=" + program + "]";
+	}
 	/**
 	 * 
 	 */

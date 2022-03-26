@@ -1,7 +1,6 @@
 package edu.Madalina;
 
 import java.io.Serializable;
-import java.util.List;
 import java.util.Vector;
  
 public class Firma_televiziune implements Serializable
@@ -37,6 +36,10 @@ public int getNumar_posturi() {
 	}
 	public void setPosturi(Vector<Post_televiziune> posturi) {
 		this.posturi = posturi;
+	}
+	@Override
+	public String toString() {
+		return "Firma_televiziune [numar_posturi=" + numar_posturi + ", posturi=" + posturi + "]";
 	}
 
 

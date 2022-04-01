@@ -2,9 +2,10 @@ package edu.Madalina;
 
 import java.io.Serializable;
 
-//import genuri.Madalina.*;
 
-public class Emisiune implements Serializable//<T>
+import genEmisiune.Madalina.*;
+
+public class Emisiune extends AbstractFactoryEmisiune implements Serializable 
 {
 	
 	/**
@@ -21,7 +22,6 @@ public class Emisiune implements Serializable//<T>
 	public Emisiune()
 	{
 		nume_emisiune="";
-		//Emisiune<Cultural> gen_emisiune = new Emisiune<Cultural>();
 		gen_emisiune="";
 		public_tinta = 0;
 		ora_difuzare = "";
@@ -46,6 +46,7 @@ public class Emisiune implements Serializable//<T>
 	public void setNume_emisiune(String nume) {
 		this.nume_emisiune = nume;
 	}
+
 	public String getGen_emisiune() {
 		return gen_emisiune;
 	}
@@ -76,11 +77,25 @@ public class Emisiune implements Serializable//<T>
 	public void setTip_emisiune(String tip_emisiune) {
 		this.tip_emisiune = tip_emisiune;
 	}
+
+
 	@Override
-	public String toString() {
-		return "Emisiune [nume_emisiune=" + nume_emisiune + ", gen_emisiune=" + gen_emisiune + ", public_tinta="
-				+ public_tinta + ", ora_difuzare=" + ora_difuzare + ", durata=" + durata + ", tip_emisiune="
-				+ tip_emisiune + "]";
+	public GenEmisiune gen_emisiune()
+	{    
+		String genEmisiune=getGen_emisiune();
+		
+		      if(genEmisiune.equalsIgnoreCase("Divertisment"))
+		      {
+		          return new Divertisment(); 
+		      }else if(genEmisiune.equalsIgnoreCase("Cultural"))
+		      {
+		          return new Cultural(); 
+		      }
+		      else if(genEmisiune.equalsIgnoreCase("Actiune"))
+		      {
+		          return new Actiune(); 
+		      }
+		return null;
 	}
 	
 }

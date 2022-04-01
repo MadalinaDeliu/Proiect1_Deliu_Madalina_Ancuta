@@ -3,13 +3,16 @@
 		"posturi":
 		[
 			{ 
-			"nume":"Kanal D",
+			"nume":"ProTv",
             "frecventa":1,
             "zile_revizie":"Vineri",
+            "zile":
+            [
+	        {
             "program":
             	{
+					"id":1,
 					"numar_emisiuni":1,
-             		"zi_saptamana":1,
              		"emisiuni":[
                          {
                            "nume_emisiune":"Stiri",
@@ -21,6 +24,111 @@
                           }
                         ]
 				}
+			},
+			{
+            "program":
+            	{
+					"id":2,
+					"numar_emisiuni":1,
+             		"emisiuni":[
+                         {
+                           "nume_emisiune":"Visuri la cheie",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":30,
+                            "ora_difuzare":"20:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          }
+                        ]
+				}
+			},
+			{
+            "program":
+            	{
+					"id":3,
+					"numar_emisiuni":1,
+             		"emisiuni":[
+                         {
+                           "nume_emisiune":"Romanii au talent",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":60,
+                            "ora_difuzare":"20:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          }
+                        ]
+				}
+			},
+			{
+            "program":
+            	{
+	                "id":4,
+					"numar_emisiuni":1,
+             		"emisiuni":[
+                         {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"20:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          }
+                        ]
+				}
+			},
+			{
+            "program":
+            	{
+	                "id":5,
+					"numar_emisiuni":1,
+             		"emisiuni":[
+                         {
+                           "nume_emisiune":"Imperiul Leilor",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":25,
+                            "ora_difuzare":"20:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          }
+                        ]
+				}
+			},
+			{
+            "program":
+            	{
+	                "id":6,
+					"numar_emisiuni":1,
+             		"emisiuni":[
+                         {
+                           "nume_emisiune":"Divergent",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":15,
+                            "ora_difuzare":"20:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          }
+                        ]
+				}
+			},
+			{
+            "program":
+            	{
+	                "id":7,
+					"numar_emisiuni":1,
+             		"emisiuni":[
+                         {
+                           "nume_emisiune":"Jumanji",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":21,
+                            "ora_difuzare":"20:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          }
+                        ]
+				}
 			}
+			]
+			}
+			
 		]
 }

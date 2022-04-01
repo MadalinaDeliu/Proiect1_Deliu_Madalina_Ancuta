@@ -1,14 +1,11 @@
 package edu.Madalina;
 
 import java.io.Serializable;
+import java.util.Vector;
 
 public class Post_televiziune implements Serializable
 {
-	@Override
-	public String toString() {
-		return "Post_televiziune [nume=" + nume + ", frecventa=" + frecventa + ", zile_revizie=" + zile_revizie
-				+ ", program=" + program + "]";
-	}
+	
 	/**
 	 * 
 	 */
@@ -17,56 +14,74 @@ public class Post_televiziune implements Serializable
 	private String nume;
 	private float frecventa;
 	private String zile_revizie;
-	private Program_post_televiziune program = new Program_post_televiziune();
+	private Vector<Zi_saptamana> zile= new Vector<Zi_saptamana>();
 	
-	public Post_televiziune()
-	{
-		nume="";
-		frecventa=0;
-		zile_revizie="";
-		program=null;
+	
+
+	public Post_televiziune() {
+		super();
+		
 	}
 	
-	public Post_televiziune(String nume, float frecventa, String zile_revizie, Program_post_televiziune program)
-	{
+	
+	public Post_televiziune(String nume, float frecventa, String zile_revizie, Vector<Zi_saptamana> zile) {
+		super();
 		this.nume = nume;
 		this.frecventa = frecventa;
 		this.zile_revizie = zile_revizie;
-		this.program = program;
+		this.zile = zile;
 	}
-	public void detalii_post()
-	{
-		program = new Program_post_televiziune();
-//		program.program_zile();
-	}
+	
 	
 	public String getNume() {
 		return nume;
 	}
+
+
+
 	public void setNume(String nume) {
 		this.nume = nume;
 	}
+
+
+
 	public float getFrecventa() {
 		return frecventa;
 	}
+
+
+
 	public void setFrecventa(float frecventa) {
 		this.frecventa = frecventa;
 	}
+
+
+
 	public String getZile_revizie() {
 		return zile_revizie;
 	}
+
+
+
 	public void setZile_revizie(String zile_revizie) {
 		this.zile_revizie = zile_revizie;
 	}
-	
-	public  Program_post_televiziune getProgram() {
-		return program;
+
+
+
+	public Vector<Zi_saptamana> getZile() {
+		return zile;
 	}
-	public void setProgram(Program_post_televiziune program) {
-		this.program = program;
+
+
+
+	public void setZile(Vector<Zi_saptamana> zile) {
+		this.zile = zile;
+
 	}
-	
-	
+
+
+
 	public void tipul_postului() {
 		
 	}

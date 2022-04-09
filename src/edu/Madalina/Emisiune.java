@@ -82,7 +82,7 @@ public class Emisiune extends AbstractFactoryEmisiune implements Serializable
 	@Override
 	public GenEmisiune gen_emisiune()
 	{    
-		String genEmisiune=getGen_emisiune();
+		String genEmisiune = gen_emisiune;
 		
 		      if(genEmisiune.equalsIgnoreCase("Divertisment"))
 		      {

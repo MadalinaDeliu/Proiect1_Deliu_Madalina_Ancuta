@@ -8,10 +8,10 @@
             "zile_revizie":"Vineri",
             "zile":
             [
-	        {
+	        {"id":1,
             "program":
             	{
-					"id":1,
+					
 					"numar_emisiuni":1,
              		"emisiuni":[
                          {
@@ -25,10 +25,10 @@
                         ]
 				}
 			},
-			{
+			{"id":2,
             "program":
             	{
-					"id":2,
+					
 					"numar_emisiuni":1,
              		"emisiuni":[
                          {
@@ -42,10 +42,10 @@
                         ]
 				}
 			},
-			{
+			{"id":3,
             "program":
             	{
-					"id":3,
+					
 					"numar_emisiuni":1,
              		"emisiuni":[
                          {
@@ -59,10 +59,10 @@
                         ]
 				}
 			},
-			{
+			{"id":4,
             "program":
             	{
-	                "id":4,
+	                
 					"numar_emisiuni":1,
              		"emisiuni":[
                          {
@@ -76,10 +76,10 @@
                         ]
 				}
 			},
-			{
+			{"id":5,
             "program":
             	{
-	                "id":5,
+	                
 					"numar_emisiuni":1,
              		"emisiuni":[
                          {
@@ -93,10 +93,10 @@
                         ]
 				}
 			},
-			{
+			{"id":6,
             "program":
             	{
-	                "id":6,
+	                
 					"numar_emisiuni":1,
              		"emisiuni":[
                          {
@@ -110,10 +110,10 @@
                         ]
 				}
 			},
-			{
+			{"id":7,
             "program":
             	{
-	                "id":7,
+	                
 					"numar_emisiuni":1,
              		"emisiuni":[
                          {

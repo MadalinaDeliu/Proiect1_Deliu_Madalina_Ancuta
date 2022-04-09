@@ -3,7 +3,10 @@ package edu.Madalina;
 import java.io.Serializable;
 import java.util.Vector;
 
-public class Post_televiziune implements Serializable
+import pattern.Madalina.Container;
+import pattern.Madalina.Iterator;
+
+public class Post_televiziune implements Serializable, Container
 {
 	
 	/**
@@ -15,12 +18,12 @@ public class Post_televiziune implements Serializable
 	private float frecventa;
 	private String zile_revizie;
 	private Vector<Zi_saptamana> zile= new Vector<Zi_saptamana>();
+	 
 	
 	
 
 	public Post_televiziune() {
-		super();
-		
+		zile.setSize(7);
 	}
 	
 	
@@ -32,54 +35,35 @@ public class Post_televiziune implements Serializable
 		this.zile = zile;
 	}
 	
+
+	@Override
+	public Iterator getIterator() {
+		return new ZiIterator();
+	}
+	private class ZiIterator implements Iterator {
+
+	      int index;
+	      
+	      @Override
+	      public boolean hasNext() {
 	
-	public String getNume() {
-		return nume;
+	         if(index < zile.size()){
+	            return true;
+	         }
+	         return false;
+	      }
+
+	      @Override
+	      public Object next() {
+
+	         if(this.hasNext()){
+	            return zile.get(index++);
+	         }
+	         return null;
+	     }		
+	
 	}
-
-
-
-	public void setNume(String nume) {
-		this.nume = nume;
-	}
-
-
-
-	public float getFrecventa() {
-		return frecventa;
-	}
-
-
-
-	public void setFrecventa(float frecventa) {
-		this.frecventa = frecventa;
-	}
-
-
-
-	public String getZile_revizie() {
-		return zile_revizie;
-	}
-
-
-
-	public void setZile_revizie(String zile_revizie) {
-		this.zile_revizie = zile_revizie;
-	}
-
-
-
-	public Vector<Zi_saptamana> getZile() {
-		return zile;
-	}
-
-
-
-	public void setZile(Vector<Zi_saptamana> zile) {
-		this.zile = zile;
-
-	}
-
+	
 
 
 	public void tipul_postului() {
@@ -96,6 +80,38 @@ public class Post_televiziune implements Serializable
 	}
 	public void ora_preponderenta_gen_emisiune() {
 		
+	}
+	
+	
+	public String getNume() {
+		return nume;
+	}
+
+	public void setNume(String nume) {
+		this.nume = nume;
+	}
+
+	public float getFrecventa() {
+		return frecventa;
+	}
+
+	public void setFrecventa(float frecventa) {
+		this.frecventa = frecventa;
+	}
+
+	public String getZile_revizie() {
+		return zile_revizie;
+	}
+
+	public void setZile_revizie(String zile_revizie) {
+		this.zile_revizie = zile_revizie;
+	}
+
+	public Vector<Zi_saptamana> getZile() {
+		return zile;
+	}
+	public void setZile(Vector<Zi_saptamana> zile) {
+		this.zile = zile;
 	}
 
 }

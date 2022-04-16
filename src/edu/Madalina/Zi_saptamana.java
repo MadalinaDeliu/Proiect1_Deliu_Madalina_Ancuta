@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 import pattern.Madalina.Container;
 import pattern.Madalina.Iterator;
-import pattern.Madalina.MyObserver;
+
 
 public class Zi_saptamana implements Serializable
 {

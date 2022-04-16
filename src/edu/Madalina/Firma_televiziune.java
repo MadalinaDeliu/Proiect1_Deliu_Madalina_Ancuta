@@ -13,7 +13,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
 
 import pattern.Madalina.Iterator;
-import pattern.Madalina.Singleton;
+
  
 public class Firma_televiziune implements Serializable
 {

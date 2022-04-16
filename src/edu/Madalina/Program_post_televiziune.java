@@ -4,7 +4,7 @@ import java.util.*;
 
 import pattern.Madalina.Container;
 import pattern.Madalina.Iterator;
-import pattern.Madalina.MyObserver;
+
 public class Program_post_televiziune implements Serializable
 {
 	

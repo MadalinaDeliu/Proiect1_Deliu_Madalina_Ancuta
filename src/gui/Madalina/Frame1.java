@@ -52,7 +52,7 @@ public class Frame1 {
 		JButton btnNewButton = new JButton("PRO TV");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Frame2 fr = new Frame2();
+				Frame2_ProTv fr = new Frame2_ProTv();
 				fr.NewScreen();
 				frame.setVisible(false);
 			}
@@ -63,7 +63,7 @@ public class Frame1 {
 		JButton btnNewButton_1 = new JButton("Antena 1");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Frame2 fr = new Frame2();
+				Frame2_Antena1 fr = new Frame2_Antena1();
 				fr.NewScreen();
 				frame.setVisible(false);
 			}
@@ -74,7 +74,7 @@ public class Frame1 {
 		JButton btnNewButton_2 = new JButton("Kanal D");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Frame2 fr = new Frame2();
+				Frame2_KanalD fr = new Frame2_KanalD();
 				fr.NewScreen();
 				frame.setVisible(false);
 			}

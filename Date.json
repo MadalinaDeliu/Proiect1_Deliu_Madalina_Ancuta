@@ -12,14 +12,126 @@
             "program":
             	{
 					
-					"numar_emisiuni":1,
+					"numar_emisiuni":15,
              		"emisiuni":[
                          {
                            "nume_emisiune":"Stiri",
                             "gen_emisiune":"cultural",
                             "public_tinta":60,
+                            "ora_difuzare":"07:00",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Vorbeste lumea",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":55,
+                            "ora_difuzare":"10:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"13:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":35,
+                            "ora_difuzare":"14:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"La Maruta",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":30,
+                            "ora_difuzare":"15:00",
+                            "durata":2,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"17:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":45,
+                            "ora_difuzare":"18:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"19:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Survivor Romania",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":28,
                             "ora_difuzare":"20:30",
                             "durata":3,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":40,
+                            "ora_difuzare":"23:30",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Furia unui om periculos",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":32,
+                            "ora_difuzare":"00:30",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Superspeed",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":19,
+                            "ora_difuzare":"02:30",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Vorbeste lumea",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":17,
+                            "ora_difuzare":"03:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":17,
+                            "ora_difuzare":"05:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":35,
+                            "ora_difuzare":"06:00",
+                            "durata":1,
                             "tip_emisiune":"Live"
                           }
                         ]
@@ -29,14 +141,126 @@
             "program":
             	{
 					
-					"numar_emisiuni":1,
+					"numar_emisiuni":15,
              		"emisiuni":[
-                         {
-                           "nume_emisiune":"Visuri la cheie",
+                           {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"07:00",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Vorbeste lumea",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":55,
+                            "ora_difuzare":"10:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"13:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":35,
+                            "ora_difuzare":"14:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"La Maruta",
                             "gen_emisiune":"divertisment",
                             "public_tinta":30,
+                            "ora_difuzare":"15:00",
+                            "durata":2,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"17:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":45,
+                            "ora_difuzare":"18:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"19:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Survivor Romania",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":28,
                             "ora_difuzare":"20:30",
                             "durata":3,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":40,
+                            "ora_difuzare":"23:30",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                            "nume_emisiune":"Contrabanda",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":32,
+                            "ora_difuzare":"00:30",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":19,
+                            "ora_difuzare":"02:30",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Vorbeste lumea",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":17,
+                            "ora_difuzare":"03:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":17,
+                            "ora_difuzare":"05:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":35,
+                            "ora_difuzare":"06:00",
+                            "durata":1,
                             "tip_emisiune":"Live"
                           }
                         ]
@@ -46,14 +270,134 @@
             "program":
             	{
 					
-					"numar_emisiuni":1,
+					"numar_emisiuni":16,
              		"emisiuni":[
-                         {
-                           "nume_emisiune":"Romanii au talent",
-                            "gen_emisiune":"divertisment",
+                           {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
                             "public_tinta":60,
-                            "ora_difuzare":"20:30",
+                            "ora_difuzare":"07:00",
                             "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Vorbeste lumea",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":55,
+                            "ora_difuzare":"10:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"13:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":35,
+                            "ora_difuzare":"14:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"La Maruta",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":30,
+                            "ora_difuzare":"15:00",
+                            "durata":2,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"17:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":45,
+                            "ora_difuzare":"18:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"19:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Las Fierbinti",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":28,
+                            "ora_difuzare":"20:30",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Imperiul leilor",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":28,
+                            "ora_difuzare":"21:30",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":40,
+                            "ora_difuzare":"23:30",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                            "nume_emisiune":"Domino",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":32,
+                            "ora_difuzare":"00:30",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":19,
+                            "ora_difuzare":"02:30",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Vorbeste lumea",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":17,
+                            "ora_difuzare":"03:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":17,
+                            "ora_difuzare":"05:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":35,
+                            "ora_difuzare":"06:00",
+                            "durata":1,
                             "tip_emisiune":"Live"
                           }
                         ]
@@ -63,14 +407,134 @@
             "program":
             	{
 	                
-					"numar_emisiuni":1,
+					"numar_emisiuni":16,
              		"emisiuni":[
-                         {
+                           {
                            "nume_emisiune":"Stiri",
                             "gen_emisiune":"cultural",
                             "public_tinta":60,
-                            "ora_difuzare":"20:30",
+                            "ora_difuzare":"07:00",
                             "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Vorbeste lumea",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":55,
+                            "ora_difuzare":"10:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"13:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":35,
+                            "ora_difuzare":"14:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"La Maruta",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":30,
+                            "ora_difuzare":"15:00",
+                            "durata":2,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"17:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":45,
+                            "ora_difuzare":"18:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"19:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Las Fierbinti",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":28,
+                            "ora_difuzare":"20:30",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Masterchef",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":28,
+                            "ora_difuzare":"21:30",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":40,
+                            "ora_difuzare":"23:30",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                            "nume_emisiune":"Search and Destroy",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":32,
+                            "ora_difuzare":"00:30",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":19,
+                            "ora_difuzare":"02:30",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Vorbeste lumea",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":17,
+                            "ora_difuzare":"03:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":17,
+                            "ora_difuzare":"05:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":35,
+                            "ora_difuzare":"06:00",
+                            "durata":1,
                             "tip_emisiune":"Live"
                           }
                         ]
@@ -80,14 +544,103 @@
             "program":
             	{
 	                
-					"numar_emisiuni":1,
+					"numar_emisiuni":12,
              		"emisiuni":[
                          {
-                           "nume_emisiune":"Imperiul Leilor",
-                            "gen_emisiune":"divertisment",
-                            "public_tinta":25,
-                            "ora_difuzare":"20:30",
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"07:00",
                             "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Vorbeste lumea",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":55,
+                            "ora_difuzare":"10:30",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"13:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":35,
+                            "ora_difuzare":"14:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"La Maruta",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":30,
+                            "ora_difuzare":"15:00",
+                            "durata":2,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"17:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":45,
+                            "ora_difuzare":"18:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"19:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Romanii au talent",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":28,
+                            "ora_difuzare":"20:30",
+                            "durata":4,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Interzis la...",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":29,
+                            "ora_difuzare":"00:30",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Domino",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":32,
+                            "ora_difuzare":"02:30",
+                            "durata":3,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":35,
+                            "ora_difuzare":"06:00",
+                            "durata":1,
                             "tip_emisiune":"Live"
                           }
                         ]
@@ -97,15 +650,104 @@
             "program":
             	{
 	                
-					"numar_emisiuni":1,
+					"numar_emisiuni":12,
              		"emisiuni":[
                          {
-                           "nume_emisiune":"Divergent",
-                            "gen_emisiune":"actiune",
-                            "public_tinta":15,
-                            "ora_difuzare":"20:30",
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"07:00",
                             "durata":3,
                             "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"I Like IT",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":40,
+                            "ora_difuzare":"10:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Superspeed",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":50,
+                            "ora_difuzare":"10:30",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"O fetita americana",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":35,
+                            "ora_difuzare":"11:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"La Maruta",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":30,
+                            "ora_difuzare":"15:00",
+                            "durata":2,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Corky",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":52,
+                            "ora_difuzare":"13:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Romanii au talent",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":45,
+                            "ora_difuzare":"15:00",
+                            "durata":4,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"19:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Curierul 3",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":28,
+                            "ora_difuzare":"20:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Motivat sa ucida",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":29,
+                            "ora_difuzare":"22:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Las Fierbinti",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":32,
+                            "ora_difuzare":"02:00",
+                            "durata":4,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          
+                          {
+                           "nume_emisiune":"Lectii de viata",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":35,
+                            "ora_difuzare":"06:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
                           }
                         ]
 				}
@@ -117,12 +759,117 @@
 					"numar_emisiuni":1,
              		"emisiuni":[
                          {
-                           "nume_emisiune":"Jumanji",
-                            "gen_emisiune":"actiune",
-                            "public_tinta":21,
-                            "ora_difuzare":"20:30",
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"07:00",
                             "durata":3,
                             "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Doctor de bine",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":40,
+                            "ora_difuzare":"10:00",
+                            "durata":3,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Apropo Tv",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":25,
+                            "ora_difuzare":"13:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Masterchef",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":35,
+                            "ora_difuzare":"14:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Imperiul leilor",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":30,
+                            "ora_difuzare":"16:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Romania, te iubesc!",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":52,
+                            "ora_difuzare":"18:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                            "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":60,
+                            "ora_difuzare":"19:00",
+                            "durata":1,
+                            "tip_emisiune":"Live"
+                          },
+                          {
+                           "nume_emisiune":"Survivor Romania",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":18,
+                            "ora_difuzare":"20:00",
+                            "durata":3,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Contrabanda",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":28,
+                            "ora_difuzare":"23:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Apropo Tv",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":22,
+                            "ora_difuzare":"01:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Elysium",
+                            "gen_emisiune":"actiune",
+                            "public_tinta":32,
+                            "ora_difuzare":"02:00",
+                            "durata":2,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          
+                          {
+                           "nume_emisiune":"Romania, te iubesc!",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":15,
+                            "ora_difuzare":"04:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Ce spun romanii",
+                            "gen_emisiune":"divertisment",
+                            "public_tinta":16,
+                            "ora_difuzare":"05:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
+                          },
+                          {
+                           "nume_emisiune":"Stiri",
+                            "gen_emisiune":"cultural",
+                            "public_tinta":48,
+                            "ora_difuzare":"06:00",
+                            "durata":1,
+                            "tip_emisiune":"Inregistrata"
                           }
                         ]
 				}

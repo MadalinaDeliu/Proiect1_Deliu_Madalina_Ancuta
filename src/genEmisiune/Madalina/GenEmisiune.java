@@ -1,7 +1,10 @@
 package genEmisiune.Madalina;
 
-public interface GenEmisiune 
+public class GenEmisiune 
 {
-	void getEmisiune();	
+	void getEmisiune()
+	{
+		System.out.println("Genul emisiunii ");
+	}
 }
 

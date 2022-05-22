@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 import genEmisiune.Madalina.*;
 
-public class Emisiune extends AbstractFactoryEmisiune implements Serializable 
+public class Emisiune extends AbstractFactory implements Serializable 
 {
 	
 	/**

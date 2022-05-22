@@ -2,9 +2,12 @@ package edu.Madalina;
 
 public interface Aplicatie {
 
-	public void tipul_postului();
-	public void durata_medie_emisiuni();
-	public void numar_emisiuni_live_inregistrate();
-	public void public_tinta();
-	public void ora_preponderenta_gen_emisiune();
+	public String f_tip();
+	public float f_durata();
+	public int f_numar_emisiuniL();
+	public int f_numar_emisiuniI();
+	public int f_public();
+
 }
+
+

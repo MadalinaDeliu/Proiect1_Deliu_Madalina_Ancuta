@@ -5,11 +5,16 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JTextPane;
 import java.awt.Font;
+import javax.swing.JButton;
+import java.awt.Color;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Frame3_Antena1_Luni {
 
 	private JFrame frame;
 
+	
 	/**
 	 * Launch the application.
 	 */
@@ -19,6 +24,7 @@ public class Frame3_Antena1_Luni {
 				try {
 					Frame3_Antena1_Luni window = new Frame3_Antena1_Luni();
 					window.frame.setVisible(true);
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -38,7 +44,7 @@ public class Frame3_Antena1_Luni {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 191, 464);
+		frame.setBounds(100, 100, 218, 464);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -146,6 +152,16 @@ public class Frame3_Antena1_Luni {
 		txtpnStirilePro_5.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		txtpnStirilePro_5.setBounds(10, 397, 106, 19);
 		frame.getContentPane().add(txtpnStirilePro_5);
+		
+		JButton btnNewButton = new JButton("Close");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton.setForeground(Color.RED);
+		btnNewButton.setBounds(137, 397, 67, 21);
+		frame.getContentPane().add(btnNewButton);
 	}
 
 }

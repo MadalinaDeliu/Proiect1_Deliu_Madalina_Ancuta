@@ -1,6 +1,6 @@
 package genEmisiune.Madalina;
 
-public class Cultural implements GenEmisiune
+public class Cultural extends GenEmisiune
 {
 
 	@Override

@@ -1,10 +1,14 @@
 package gui.Madalina;
 
+import java.awt.Color;
 import java.awt.EventQueue;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextPane;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Frame3_KanalD_Marti {
 
@@ -160,6 +164,16 @@ public class Frame3_KanalD_Marti {
 		txtpnStirileKanal_3.setEditable(false);
 		txtpnStirileKanal_3.setBounds(10, 475, 146, 19);
 		frame.getContentPane().add(txtpnStirileKanal_3);
+		
+		JButton btnNewButton = new JButton("Close");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton.setForeground(Color.RED);
+		btnNewButton.setBounds(257, 475, 67, 21);
+		frame.getContentPane().add(btnNewButton);
 	}
 
 }

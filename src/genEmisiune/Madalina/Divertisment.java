@@ -1,6 +1,6 @@
 package genEmisiune.Madalina;
 
-public class Divertisment implements GenEmisiune
+public class Divertisment extends GenEmisiune
 {
 
 	@Override

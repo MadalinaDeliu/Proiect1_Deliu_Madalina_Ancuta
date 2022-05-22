@@ -1,10 +1,14 @@
 package gui.Madalina;
 
+import java.awt.Color;
 import java.awt.EventQueue;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextPane;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Frame3_Antena1_Marti {
 
@@ -38,7 +42,7 @@ public class Frame3_Antena1_Marti {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 191, 464);
+		frame.setBounds(100, 100, 210, 464);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -139,6 +143,16 @@ public class Frame3_Antena1_Marti {
 		txtpnStirilePro_5.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		txtpnStirilePro_5.setBounds(10, 387, 106, 19);
 		frame.getContentPane().add(txtpnStirilePro_5);
+		
+		JButton btnNewButton = new JButton("Close");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton.setForeground(Color.RED);
+		btnNewButton.setBounds(126, 387, 67, 21);
+		frame.getContentPane().add(btnNewButton);
 	}
 
 }

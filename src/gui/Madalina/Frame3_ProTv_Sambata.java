@@ -1,10 +1,14 @@
 package gui.Madalina;
 
+import java.awt.Color;
 import java.awt.EventQueue;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextPane;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Frame3_ProTv_Sambata {
 
@@ -38,13 +42,13 @@ public class Frame3_ProTv_Sambata {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 181, 464);
+		frame.setBounds(100, 100, 217, 464);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
 		JTextPane txtpnStirilePro = new JTextPane();
 		txtpnStirilePro.setEditable(false);
-		txtpnStirilePro.setText("07: Stirile Pro Tv");
+		txtpnStirilePro.setText("07: 00 Stirile Pro Tv");
 		txtpnStirilePro.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		txtpnStirilePro.setBounds(10, 10, 106, 19);
 		frame.getContentPane().add(txtpnStirilePro);
@@ -124,6 +128,16 @@ public class Frame3_ProTv_Sambata {
 		txtpnImperiulLeilor.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		txtpnImperiulLeilor.setBounds(10, 300, 136, 19);
 		frame.getContentPane().add(txtpnImperiulLeilor);
+		
+		JButton btnNewButton = new JButton("Close");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton.setForeground(Color.RED);
+		btnNewButton.setBounds(137, 397, 67, 21);
+		frame.getContentPane().add(btnNewButton);
 	}
 
 }

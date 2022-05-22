@@ -6,7 +6,7 @@ import java.util.Vector;
 import pattern.Madalina.Container;
 import pattern.Madalina.Iterator;
 
-public class Post_televiziune implements Serializable, Container
+public class Post_televiziune implements Serializable, Container, Durata_medie
 {
 	
 	/**
@@ -99,5 +99,37 @@ public class Post_televiziune implements Serializable, Container
 	public void setZile(Vector<Zi_saptamana> zile) {
 		this.zile = zile;
 	}
+
+	public float f_durata() {
+		float durata_medie=0;
+		for(Zi_saptamana data2: zile)
+		{
+			durata_medie=(durata_medie+data2.f_durata())/7;
+		}
+		return durata_medie;
+	}
+	
+	
+	public void situatie_globala_post() {
+
+		int nr_emisiuni_live=0, nr_em_inreg=0;
+		int x=0;
+		String gen="";
+
+		for(Zi_saptamana data2: zile)
+		{
+			nr_emisiuni_live= nr_emisiuni_live + data2.f_numar_emisiuniL();
+			nr_em_inreg= nr_em_inreg + data2.f_numar_emisiuniI();
+			
+			x=data2.f_public();
+			
+			gen=data2.f_tip();
+		}
+		System.out.println("------Durata medie a emisiunilor---------\n"+f_durata());
+		System.out.println("------Numarul de emisiuni live---------\n"+nr_emisiuni_live);
+		System.out.println("------Numarul de emisiuni inregistrate---------\n"+nr_em_inreg);
+		System.out.println("------Publicul tinta---------\n"+x);
+		System.out.println("------Genul postului---------\n"+gen);
+		}
 
 }

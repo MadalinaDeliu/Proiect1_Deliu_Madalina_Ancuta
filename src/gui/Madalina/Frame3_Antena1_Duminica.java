@@ -1,10 +1,14 @@
 package gui.Madalina;
 
+import java.awt.Color;
 import java.awt.EventQueue;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextPane;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Frame3_Antena1_Duminica {
 
@@ -125,5 +129,15 @@ public class Frame3_Antena1_Duminica {
 		txtpnObservator_1.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		txtpnObservator_1.setBounds(33, 62, 108, 19);
 		frame.getContentPane().add(txtpnObservator_1);
+		
+		JButton btnNewButton = new JButton("Close");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton.setForeground(Color.RED);
+		btnNewButton.setBounds(122, 363, 67, 21);
+		frame.getContentPane().add(btnNewButton);
 	}
 }

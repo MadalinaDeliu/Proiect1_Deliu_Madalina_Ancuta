@@ -1,6 +1,6 @@
 package genEmisiune.Madalina;
 
-public class Actiune implements GenEmisiune
+public class Actiune extends GenEmisiune
 {
 
 	@Override

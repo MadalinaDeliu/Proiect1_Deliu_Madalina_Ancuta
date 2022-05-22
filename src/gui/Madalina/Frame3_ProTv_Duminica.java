@@ -1,10 +1,14 @@
 package gui.Madalina;
 
+import java.awt.Color;
 import java.awt.EventQueue;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextPane;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Frame3_ProTv_Duminica {
 
@@ -38,7 +42,7 @@ public class Frame3_ProTv_Duminica {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 203, 447);
+		frame.setBounds(100, 100, 231, 447);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -139,5 +143,15 @@ public class Frame3_ProTv_Duminica {
 		txtpnApropoTv_1.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		txtpnApropoTv_1.setBounds(33, 62, 130, 19);
 		frame.getContentPane().add(txtpnApropoTv_1);
+		
+		JButton btnNewButton = new JButton("Close");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton.setForeground(Color.RED);
+		btnNewButton.setBounds(150, 379, 67, 21);
+		frame.getContentPane().add(btnNewButton);
 	}
 }

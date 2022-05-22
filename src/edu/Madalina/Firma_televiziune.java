@@ -26,8 +26,6 @@ public class Firma_televiziune implements Serializable
 	private static Firma_televiziune single_instance=null;
   
 
-        
-    
 
 	private Firma_televiziune()
 	  {}

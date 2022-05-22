@@ -59,7 +59,6 @@ public class Frame2_KanalD {
 		frame.setBackground(Color.DARK_GRAY);
 		frame.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		frame.setBounds(100, 100, 664, 380);
-
 		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		

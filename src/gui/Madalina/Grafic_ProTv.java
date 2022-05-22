@@ -28,8 +28,7 @@ public class Grafic_ProTv extends ApplicationFrame {
    
    private CategoryDataset createDataset( ) {
       final String protv = "ProTv";        
-         
-          
+            
       final String ora1 = "07:00";        
       final String ora2 = "10:00";        
       final String ora3 = "13:00";        

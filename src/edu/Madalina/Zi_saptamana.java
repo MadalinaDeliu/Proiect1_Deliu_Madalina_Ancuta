@@ -250,8 +250,6 @@ public class Zi_saptamana implements Serializable, Aplicatie
 	}
 	
 
-
-
 	public int f_public()
 
 	{

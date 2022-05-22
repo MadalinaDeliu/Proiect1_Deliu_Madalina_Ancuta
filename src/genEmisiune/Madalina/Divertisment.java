@@ -8,6 +8,7 @@ public class Divertisment extends GenEmisiune
 		return "Divertisment";
 	}
 
+	
 	@Override
 	public void getEmisiune() {
 		System.out.println("Divertisment");

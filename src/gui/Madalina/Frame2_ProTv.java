@@ -28,9 +28,8 @@ public class Frame2_ProTv {
 	/**
 	 * Launch the application.
 	 */
-	public static void NewScreen() {
-		
-		EventQueue.invokeLater(new Runnable() {
+	public static void NewScreen() {		
+	EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
 					

@@ -30,7 +30,8 @@ public class Grafic_Antena1 extends ApplicationFrame {
    
    private CategoryDataset createDataset( ) {
        
-	  final String antena1 = "Antena1"; 
+	  final String antena = "Antena1"; 
+
            
       final String ora1 = "08:00";        
       final String ora2 = "12:00";        
@@ -49,23 +50,22 @@ public class Grafic_Antena1 extends ApplicationFrame {
       final DefaultCategoryDataset dataset = 
       new DefaultCategoryDataset( );  
 
-      dataset.addValue( 43 , antena1 , ora1 );        
-      dataset.addValue( 58 , antena1 , ora2 );        
-      dataset.addValue( 46 , antena1 , ora3 ); 
-      dataset.addValue( 24 , antena1 , ora4 );   
-      dataset.addValue( 50 , antena1 , ora5 );        
-      dataset.addValue( 63 , antena1 , ora6 );        
-      dataset.addValue( 57 , antena1 , ora7 ); 
-      dataset.addValue( 25 , antena1 , ora8 );  
-      dataset.addValue( 28 , antena1 , ora9 );        
-      dataset.addValue( 29 , antena1 , ora10 );        
-      dataset.addValue( 19 , antena1 , ora11 ); 
-      dataset.addValue( 30 , antena1 , ora12 );   
-      dataset.addValue( 29 , antena1 , ora13 );        
+      dataset.addValue( 43 , antena , ora1 );        
+      dataset.addValue( 58 , antena , ora2 );        
+      dataset.addValue( 46 , antena , ora3 ); 
+      dataset.addValue( 24 , antena , ora4 );   
+      dataset.addValue( 50 , antena , ora5 );        
+      dataset.addValue( 63 , antena , ora6 );        
+      dataset.addValue( 57 , antena , ora7 ); 
+      dataset.addValue( 25 , antena , ora8 );  
+      dataset.addValue( 28 , antena , ora9 );        
+      dataset.addValue( 29 , antena , ora10 );        
+      dataset.addValue( 19 , antena , ora11 ); 
+      dataset.addValue( 30 , antena , ora12 );   
+      dataset.addValue( 29 , antena , ora13 );        
    
 
       return dataset; 
    }
-   
-   
+
 }

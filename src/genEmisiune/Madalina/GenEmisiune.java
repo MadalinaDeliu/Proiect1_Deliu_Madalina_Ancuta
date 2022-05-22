@@ -4,7 +4,7 @@ public class GenEmisiune
 {
 	void getEmisiune()
 	{
-		System.out.println("Genul emisiunii ");
+		System.out.println("Genul emisiunii: ");
 	}
 }
 

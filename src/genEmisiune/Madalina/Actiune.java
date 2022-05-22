@@ -8,6 +8,7 @@ public class Actiune extends GenEmisiune
 		return "Actiune";
 	}
 
+	
 	@Override
 	public void getEmisiune() {
 		System.out.println("Actiune");

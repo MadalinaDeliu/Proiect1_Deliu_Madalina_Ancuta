@@ -37,6 +37,5 @@ public class Facade
 			data.situatie_globala_post();
      	
        }
-
-	 }
+	}
 }

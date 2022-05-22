@@ -39,7 +39,6 @@ public class Frame1 {
 			}
 		});
 	}
-
 	/**
 	 * Create the application.
 	 */

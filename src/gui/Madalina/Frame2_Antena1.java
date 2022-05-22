@@ -23,20 +23,21 @@ public class Frame2_Antena1 {
 
 	private JFrame frame;
 	
-	static Grafic_ProTv chart = new Grafic_ProTv("Grafic audienta", "Grafic de audienta Antena1");
+	static Grafic_Antena1 chart = new Grafic_Antena1("Grafic audienta", "Grafic de audienta Antena1");
 
 	/**
 	 * Launch the application.
 	 */
 	public static void NewScreen() {
 		     
-		      chart.pack( );        
-		      RefineryUtilities.centerFrameOnScreen( chart );        
-		      chart.setVisible( true ); 
+		       
 		   
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					chart.pack( );        
+				      RefineryUtilities.centerFrameOnScreen( chart );        
+				      chart.setVisible( true );
 					Frame2_Antena1 window = new Frame2_Antena1();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
@@ -109,8 +110,7 @@ public class Frame2_Antena1 {
 				//frame.setVisible(false);
 			}
 		});
-		
-		
+				
 		JButton btnNewButton_3 = new JButton("Joi");
 		btnNewButton_3.setBackground(Color.CYAN);
 		btnNewButton_3.setBounds(134, 261, 85, 21);

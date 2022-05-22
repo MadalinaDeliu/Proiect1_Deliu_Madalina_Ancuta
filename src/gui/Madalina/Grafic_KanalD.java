@@ -10,7 +10,6 @@ import org.jfree.ui.ApplicationFrame;
 import org.jfree.ui.RefineryUtilities; 
 
 public class Grafic_KanalD extends ApplicationFrame {
-   
    public Grafic_KanalD( String applicationTitle , String chartTitle ) {
       super( applicationTitle );        
       JFreeChart barChart = ChartFactory.createBarChart(

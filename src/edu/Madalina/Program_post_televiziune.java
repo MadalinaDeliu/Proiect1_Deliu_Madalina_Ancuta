@@ -40,7 +40,4 @@ public class Program_post_televiziune implements Serializable
 		this.emisiuni = emisiuni;
 	}
 
-	
-
-	
 }

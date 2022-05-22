@@ -8,6 +8,7 @@ public class Cultural extends GenEmisiune
 		return "Cultural";
 	}
 
+	
 	@Override
 	public void getEmisiune() {
 		System.out.println("Cultural");

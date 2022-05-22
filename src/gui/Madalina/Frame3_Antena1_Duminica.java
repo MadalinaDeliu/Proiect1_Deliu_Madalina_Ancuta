@@ -11,7 +11,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Frame3_Antena1_Duminica {
-
 	private JFrame frame;
 
 	/**

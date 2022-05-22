@@ -20,7 +20,6 @@ public class Post_televiziune implements Serializable, Container, Durata_medie
 	private Vector<Zi_saptamana> zile= new Vector<Zi_saptamana>();
 	 
 	
-	
 
 	public Post_televiziune() {
 		zile.setSize(7);

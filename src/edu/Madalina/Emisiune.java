@@ -78,7 +78,6 @@ public class Emisiune extends AbstractFactory implements Serializable
 		this.tip_emisiune = tip_emisiune;
 	}
 
-
 	@Override
 	public GenEmisiune gen_emisiune()
 	{    

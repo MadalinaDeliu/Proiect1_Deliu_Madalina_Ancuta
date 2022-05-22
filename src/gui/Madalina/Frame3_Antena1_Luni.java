@@ -11,7 +11,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class Frame3_Antena1_Luni {
-
 	private JFrame frame;
 
 	

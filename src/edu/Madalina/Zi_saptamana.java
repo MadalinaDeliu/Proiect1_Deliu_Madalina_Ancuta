@@ -7,7 +7,10 @@ import pattern.Madalina.Container;
 import pattern.Madalina.Iterator;
 
 
+
 public class Zi_saptamana implements Serializable, Aplicatie
+
+
 {
 
 	private static final long serialVersionUID = 1L;
@@ -41,6 +44,7 @@ public class Zi_saptamana implements Serializable, Aplicatie
 		this.program = program;
 	}
 
+
 	public String f_tip()
 	{
 		int cont_cult=0, cont_div=0, cont_act=0;
@@ -70,16 +74,21 @@ public class Zi_saptamana implements Serializable, Aplicatie
         {
         	gen="actiune";
         }
+
 		 return gen;
-	}
+		}
+
 	
 	public void tipul_postului()
 	{
+
 		System.out.println("----------Genul postului-----------\n");
+
 		switch (id) 
         {
 		
             case 1:
+
                 System.out.println("Luni "+ f_tip());
                
                 break;
@@ -105,16 +114,15 @@ public class Zi_saptamana implements Serializable, Aplicatie
                 break;
             case 7:
                 System.out.println("Duminica "+ f_tip());
-
                 break;
             default:
-                System.out.println("Invalid"+ f_tip());
-                break;
-        	}
-		
-	}
-	
+                System.out.println("Invalid");
+                break;}
+
+        }
+
 	public float f_durata()
+
 	{
 		float durata_medie=0;
 		for(Emisiune data: program.getEmisiuni())
@@ -123,6 +131,7 @@ public class Zi_saptamana implements Serializable, Aplicatie
                     	
     	}
         durata_medie = durata_medie/program.getNumar_emisiuni();
+
     	return durata_medie;
 	}
 	
@@ -156,14 +165,16 @@ public class Zi_saptamana implements Serializable, Aplicatie
                 break;
             case 7:
                 System.out.println("Duminica"+f_durata());
-                
                 break;
             default:
                 System.out.println("Invalid");
                 break;
-        	}
+               }
+               
 	}
 	
+	
+
 	public int f_numar_emisiuniL() 
 	{
 		int countL = 0;
@@ -183,13 +194,15 @@ public class Zi_saptamana implements Serializable, Aplicatie
 		 for(Emisiune data: program.getEmisiuni())
      	{	
          	 if(data.getTip_emisiune().equals("Inregistrata"))
-         	 {
+         	{
          		 countI++;
          	 }
                      	
      	}
          return countI;
-	}
+     	}
+
+	
 	
 	public void numar_emisiuni_live_inregistrate() {
 		
@@ -229,14 +242,18 @@ public class Zi_saptamana implements Serializable, Aplicatie
                 System.out.println("Duminica");
                 System.out.println("-------Numarul de emisiuni live--------\n"+ f_numar_emisiuniL());   
                 System.out.println("-------Numarul de emisiuni inregistrate--------\n"+ f_numar_emisiuniI());    
-                break;
+
             default:
                 System.out.println("Invalid");
                 break;
         	}
 	}
 	
+
+
+
 	public int f_public()
+
 	{
 		int arr[] = new int[100];
 		int max=0, sol=0;
@@ -251,11 +268,14 @@ public class Zi_saptamana implements Serializable, Aplicatie
         		 }
         		 
     	}
+
         return sol;
+
 	}
 	
 	public void public_tinta() 
 	{
+
 		System.out.println("----------Publicul tinta------------");
 		switch (id) 
         {
@@ -285,13 +305,16 @@ public class Zi_saptamana implements Serializable, Aplicatie
                 break;
             case 7:
                 System.out.println("Duminica "+ f_public());
-
-                break;
             default:
                 System.out.println("Invalid");
                 break;
-        	}
-		}
-	
-	
+
+        }
 	}
+}
+		
+	
+	
+	
+	
+
